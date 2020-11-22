@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Burrito';
+    src: url('BurritoOne.eot');
+    src: url('BurritoOne.eot?#iefix') format('embedded-opentype'),
+        url('BurritoOne.woff2') format('woff2'),
+        url('BurritoOne.woff') format('woff'),
+        url('BurritoOne.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'El Rio Lobo';
+    src: url('El-RioLobo.eot');
+    src: url('El-RioLobo.eot?#iefix') format('embedded-opentype'),
+        url('El-RioLobo.woff2') format('woff2'),
+        url('El-RioLobo.woff') format('woff'),
+        url('El-RioLobo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CF Mexicana PERSONAL USE';
+    src: url('CFMexicanaPERSONALUSE-Regular.eot');
+    src: url('CFMexicanaPERSONALUSE-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CFMexicanaPERSONALUSE-Regular.woff2') format('woff2'),
+        url('CFMexicanaPERSONALUSE-Regular.woff') format('woff'),
+        url('CFMexicanaPERSONALUSE-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Las locuras del emperador';
+    src: url('Laslocurasdelemperador-Regular.eot');
+    src: url('Laslocurasdelemperador-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Laslocurasdelemperador-Regular.woff2') format('woff2'),
+        url('Laslocurasdelemperador-Regular.woff') format('woff'),
+        url('Laslocurasdelemperador-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

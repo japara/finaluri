@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Burrito;
+  src: url(../fonts/BurritoOne.woff);}
+
+@font-face {
+  font-family: mexicana;
+  src: url(../fonts/CFMexicanaPERSONALUSE-Regular.woff2);}
+@font-face {
+  font-family: elrio;
+  src: url(../fonts/El-RioLobo.woff2);}
+
+@font-face {
+  font-family: cfmexican;
+  src: url(../fonts/DOldModern.ttf);}
+@font-face {
+  font-family: elsancho;
+  src: url(../fonts/ElSanchoRancho.ttf);}
+@font-face {
+  font-family: ambystoma;
+  src: url(../fonts/Ambystoma Mexicanum.otf);}
