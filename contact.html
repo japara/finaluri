@@ -2,9 +2,13 @@
 <html>
 <head>
 	<title>finaluri</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/fonts.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body class="contact">
 	<header class="header">
@@ -17,10 +21,36 @@
           <li class="nav-li"> <a class="nav-li" href="#" >Location</a> </li>
         </ul>
     </nav>
+    <div class="topnav">
+  <a href="#home" class="active">Kuzco</a>
+  <div id="myLinks">
+    <a href="index.html">Main</a>
+    <a href="story.html">Our Story</a>
+    <a href="galery.html">Galery</a>
+    <a href="order.html">Menu</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+<div style="padding-left:16px"></div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
     </header>
+
    <div class="map">
    <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d5957.288681559024!2d44.7865453947897!3d41.70661299117238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d41.7073301!2d44.7872671!5e0!3m2!1sen!2sge!4v1605884783058!5m2!1sen!2sge" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
    <form>
+    <div class="shesavsebi">
   <div class="fname">
           <label for="fname">Name</label>
           <input type="text" name="firstname" id="fname" placeholder="...type your name" required>
@@ -40,6 +70,7 @@
         </div>
         <div class="btn">
           <button type="submit" value="submit">SEND</button>
+        </div>
         </div>
 
 </form>

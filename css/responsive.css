@@ -1,0 +1,17 @@
+@media(max-width: 1067px){
+	.nav-li{margin-left: 10px;}
+	.nav-logo{margin-left: 10px;
+	          margin-right: 10px;}
+    .map iframe{display: none;}
+          
+}
+@media(max-width: 590px){
+	.menu{display: none;
+	}
+	.topnav{display: block;}
+	.main_text{font-size: 40px;}
+	.food{margin:0;}
+	.drinks{margin: 0;}
+
+
+}

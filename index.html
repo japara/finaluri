@@ -2,9 +2,13 @@
 <html>
 <head>
 	<title>finaluri</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body class="main">
 	<header class="header">
@@ -17,7 +21,32 @@
           <li class="nav-li"> <a class="nav-li" href="contact.html" >Location</a> </li>
         </ul>
     </nav>
-    </header>
+
+<div class="topnav">
+  <a href="#home" class="active">Kuzco</a>
+  <div id="myLinks">
+    <a href="index.html">Main</a>
+    <a href="story.html">Our Story</a>
+    <a href="galery.html">Galery</a>
+    <a href="order.html">Menu</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+<div style="padding-left:16px"></div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</header>
     <h1 class="main_text">Best Mexican Cuisine In Town</h1>
     <footer class="footer">
     		<a href="#"><img src="img/001-facebook.svg"></a>
